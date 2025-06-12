@@ -1,7 +1,7 @@
 <h1 align="center">DadJoke: Automated Daily Dad Joke Emailer</h1>
 
 <p align="center">
-  <a href="https://waveassist.io/templates/DadJoke">
+  <a href="https://waveassist.io/templates/dadjoke-template">
     <img src="https://img.shields.io/badge/Deploy_with-WaveAssist-007F3B" alt="Deploy with WaveAssist" />
   </a>
   <img src="https://img.shields.io/badge/DadJoke-Automated%20Dad%20Joke%20Emails-blue" alt="DadJoke Badge" />
@@ -22,7 +22,7 @@ DadJoke is a simple automation that fetches a random dad joke and sends it via e
 ## One-Click Deploy on WaveAssist (Recommended)
 
 <p>
-  <a href="https://waveassist.io/templates/DadJoke" target="_blank">
+  <a href="https://waveassist.io/templates/dadjoke-template" target="_blank">
     <img src="https://waveassistapps.s3.us-east-1.amazonaws.com/public/Button.png" alt="Deploy on WaveAssist" width="230" />
   </a>
 </p>
@@ -33,7 +33,7 @@ Deploy DadJoke instantly on [WaveAssist](https://waveassist.io) — a zero-infra
 
 #### How to Use:
 
-1. Click the button above or go to [waveassist.io/templates/DadJoke](https://waveassist.io/templates/DadJoke)
+1. Click the button above or go to [waveassist.io/templates/dadjoke-template](https://waveassist.io/templates/dadjoke-template)
 2. Run the following node:
    * **dad_joke_fetcher** — DadJokeFetcher: Fetches a random dad joke & then the next node will send it via email.
 3. Finally, click **Deploy** to schedule or automate this workflow whenever you want. Say every afternoon at 3 PM.
