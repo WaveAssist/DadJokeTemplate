@@ -5,7 +5,9 @@ nodes:
   name: DadJokeFetcher
   file_name: dad_joke_fetcher.py
   starting_node: true
-  schedule: null
+  schedule:
+    cron: '30 15 * * *'  # Every day at 3:30 PM UTC
+    timezone: 'UTC'
 - key: daily_joke_emailer
   name: DailyJokeEmailer
   file_name: daily_joke_emailer.py
