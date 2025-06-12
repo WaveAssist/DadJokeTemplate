@@ -1,0 +1,14 @@
+name: DadJoke
+description: ''
+nodes:
+- key: dad_joke_fetcher
+  name: DadJokeFetcher
+  file_name: dad_joke_fetcher.py
+  starting_node: true
+  schedule: null
+- key: daily_joke_emailer
+  name: DailyJokeEmailer
+  file_name: daily_joke_emailer.py
+  run_after:
+  - dad_joke_fetcher
+requirements: []
