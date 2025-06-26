@@ -10,7 +10,7 @@ html = f"""
 """
 
 waveassist.send_email(
-    subject="Your Daily Dad Joke 😂",
+    subject="Your Daily Dad Joke",
     html_content=html.strip()
 )
 
